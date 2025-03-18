@@ -22,3 +22,25 @@ a{
 li {
   color: #6495ED;
 }
+
+.box{
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 15px;
+}
+
+<style>
+  p{
+    color: blueviolet;
+  }
+  .highlight{
+    color: red;
+  }
+  #unique{
+    color: green !important;
+  }
+  p.inline-style{
+    color: pink !important;
+  }
+</style>
