@@ -1,0 +1,53 @@
+
+/* snackbar.js 스타일링 */
+.custom_snackbar {border-radius: 7px; font-weight: bold; font-family: inherit; text-align: center;}
+
+.flex_r_center {display: flex; justify-content: center;}
+.flex_c_center {display: flex; align-items: center;}
+.flex_r_c_center {display: flex; justify-content: center; align-items: center;}
+
+.position_row_center {position: absolute; left: 50%; transform: translateX(-50%);}
+.position_column_center {position: absolute; top: 50%; transform: translateY(-50%);}
+.position_center {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+
+.font_bold {font-weight: bold;}
+
+.txt_line_through {text-decoration: line-through;}
+.txt_ellipsis {white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+
+.bg_yellow {background-color: #fffd6e}
+
+.color_white {color: #fff;}
+.color_red {color: #ff0000;}
+.color_orange {color: #ff5b00;}
+
+.border_bottom_white {border-bottom: solid 1px #fff;}
+.border_bottom_orange {border-bottom: solid 1px #ff5b00;}
+
+.margin_t_10 {margin-top: 10px;}
+.margin_t_20 {margin-top: 20px;}
+.margin_t_30 {margin-top: 30px;}
+.margin_t_50 {margin-top: 50px;}
+.margin_t_100 {margin-top: 100px;}
+
+.padding_10 {padding: 10px;}
+.padding_20 {padding: 20px;}
+.padding_30 {padding: 30px;}
+.padding_50 {padding: 50px;}
+.padding_100 {padding: 100px;}
+
+@media screen and (max-width: 992px) {
+.custom_snackbar {margin: 0 1.375rem 1rem; letter-spacing: -0.015rem;}
+
+.m_width_50 {width: 50% !important;}
+.m_width_60 {width: 60% !important;}
+.m_width_70 {width: 70% !important;}
+
+.m_margin_t_10_r {margin-top: -10px;}
+.m_margin_t_10 {margin-top: 10px;}
+.m_margin_t_20 {margin-top: 20px;}
+.m_margin_t_30 {margin-top: 30px;}
+.m_margin_t_50 {margin-top: 50px;}
+
+.m_flex_column {display: flex; flex-direction: column;}
+}
